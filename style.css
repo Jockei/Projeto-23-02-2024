@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+}
+header {
+    background-color: darkblue;
+    color: white;
+}
+main {
+    background-color: black;
+    color: white;
+}
+footer {
+    background-color: purple;
+    color: white;
+}
