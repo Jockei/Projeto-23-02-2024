@@ -1,27 +1,74 @@
 * {
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: rgb(1, 1, 51);
-    color: white;
-    font-family: "Poppins", sans-serif;
-    display: flex;
-}
-
-header h1 {
-    display: flex;
-}
-
-main {
+body{
     background-color: black;
+    height:100vh ;
     color: white;
     font-family: "Poppins", sans-serif;
     display: flex;
 }
 
-footer {
-    background-color: rgb(38, 38, 88);
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
     color: white;
-    font-family: "Poppins", sans-serif;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0;
 }
