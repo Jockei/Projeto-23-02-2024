@@ -71,3 +71,16 @@ section.topo-do-site .flex{
     color: white;
     margin: 40px 0;
 }
+
+footer {
+    color:black;
+    background-color: white;
+}
+
+.meio {
+    flex: auto;
+}
+
+.final {
+    flex: auto;
+}
