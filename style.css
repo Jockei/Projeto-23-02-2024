@@ -11,6 +11,18 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.btn-social button{
+    font-size: 25px;
+    background-color: rgb(13, 13, 226);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -72,15 +84,25 @@ section.topo-do-site .flex{
     margin: 40px 0;
 }
 
-footer {
-    color:black;
-    background-color: white;
+form input, form textarea{
+    background-color: rgb(37, 37, 37);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
-.meio {
-    flex: auto;
+footer .flex{
+    justify-content: space-between;
 }
 
-.final {
-    flex: auto;
+footer .line-footer{
+    padding: 20px 0;
 }
+
