@@ -2,13 +2,21 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    transition: all 0.5s;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: initial;
+}
+
 
 body{
     background-color: black;
     height:100vh ;
     color: white;
     font-family: "Poppins", sans-serif;
+    
 }
 
 .btn-social button{
@@ -93,6 +101,7 @@ form input, form textarea{
     color: white;
     font-size: 18px;
 }
+
 footer{
     padding: 60px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
@@ -104,5 +113,13 @@ footer .flex{
 
 footer .line-footer{
     padding: 20px 0;
+}
+
+.meio {
+    margin: 50px;
+}
+
+.fim {
+    margin: 50px;
 }
 
