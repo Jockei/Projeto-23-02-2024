@@ -106,6 +106,8 @@ footer{
     padding: 60px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
     background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
 }
 
 footer .flex{
@@ -114,14 +116,6 @@ footer .flex{
 
 footer .line-footer{
     padding: 20px 0;
-}
-
-.meio {
-    margin: 50px;
-}
-
-.fim {
-    margin: 50px;
 }
 
 section.especialidades{
@@ -154,4 +148,21 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 10px 0;
+}
+
+main {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#ponto6 {
+    margin: auto;
+    margin-right: 500px;
+}
+
+.rodape {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
 }
